@@ -1,14 +1,14 @@
 export const navLinks = [
     {
         title: "Sobre mi",
-        path: "/about"
+        path: "hero"
     },
     {
         title: "Proyectos",
-        path: "/projects"
+        path: "projects"
     },
     {
         title: "Contactame",
-        path: "/contact"
+        path: "contact"
     }
 ]
