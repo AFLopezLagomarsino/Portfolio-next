@@ -22,14 +22,12 @@ function About() {
       <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
         <h2 className="text-4xl font-bold text-white mb-4">Sobre mi</h2>
         <p className="text-base lg:text-lg">
-          aca va a ir el sobre mi que todavia no lo escribi pero cuando termine
-          este portafolio va a quedar re chala aunque todavia ni lo pense pero
-          por lo menos algo va a quedar porque necesito que me contraten para
-          poder comer un sanguchito bien rico, aunque tambien puede ser una
-          pizza o alguna otra cosa rica, por favor quiero ganar unos dolares,
-          porque los pesos argentinos estan re mal valorizados y por eso
-          necesito unos dolares, pero solo si no es mucha molestia, pero bueno
-          eso, dale que quiero laburar uwu
+          Hola! En un principio era estudiante de la carrera de Licenciatura en Biotecnología
+          pero en la actualidad me dedico a la programación. Soy desarrollador FullStack graduado
+          en SoyHenry pero mi orientación es hacia el FrontEnd y aspiro algun día poder llegar a ser
+          programador de videojuegos y crear paginas en 3D. Me encanta brindar una gran
+          experiencia de usuario en cada proyecto que realizo. Por lo que me encantaría ser un gran colaborador
+          en tu equipo si deseas contratarme.
         </p>
         <div className="flex flex-row justify-start mt-8">
           <TabButton
