@@ -79,7 +79,7 @@ const EmailSection = () => {
               name="email"
               id="email"
               required
-              placeholder="Email"
+              placeholder="escribe tu email aqui"
               onChange={e=>handleChange(e)}
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
             />
@@ -96,7 +96,7 @@ const EmailSection = () => {
               id="subject"
               name="subject"
               required
-              placeholder="escribe tu asunto aqui :D"
+              placeholder="escribe tu asunto aqui"
               onChange={e=>handleChange(e)}
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
             />
@@ -111,7 +111,7 @@ const EmailSection = () => {
             <textarea
               name="message"
               id="message"
-              placeholder="escribe tu mensaje aqui :V"
+              placeholder="escribe tu mensaje aqui"
               onChange={e=>handleChange(e)}
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
             />
@@ -123,7 +123,7 @@ const EmailSection = () => {
           >
             Enviar email
           </button>
-          <input type="hidden" name="_next" value="http://localhost:3000" />
+          <input type="hidden" name="_next" value="https://portfolio-andreslago.vercel.app/" />
           <input type="hidden" name="_captcha" value="false" />
         </form>
         <ToastContainer
