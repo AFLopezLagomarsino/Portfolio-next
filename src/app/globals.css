@@ -31,3 +31,36 @@ body {
     text-wrap: balance;
   }
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #888;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: #7a0000;
+}
+
+@keyframes scrollBarAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 30%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+::-webkit-scrollbar {
+  animation: scrollBarAnimation 0.3s 1s forwards;
+}
